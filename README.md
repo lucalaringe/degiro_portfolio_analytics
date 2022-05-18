@@ -2,7 +2,7 @@ degiro_portfolio_analytics
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DEGIRO is Europe's fastest growing online stock broker. DEGIRO distinguishes itself from its competitors by offering extremely low trading commissions.
-However, the current Portfolio Management/Analystics tools currently available on DEGIRO's platform are extremely minimal and provide little insights into the user's portfolio. 
+However, the current Portfolio Management/Analytics tools currently available on DEGIRO's platform are extremely minimal and provide little insights into the user's portfolio. 
 This repository tries to bridge this gap by:
 
 1. Scraping, retrieving, organizing and storing data from your DEGIRO brokerage account(s) and a variety of publicly available 
@@ -27,12 +27,15 @@ Is this repository for you?
 1. Clone the repository:
 
 <code>git clone https://github.com/lucalaringe/degiro_portfolio_analytics.git</code>
+
 2. Install the requirements:
 
 <code>pip install -r requirements.txt</code>
+
 3. Run the data update/download:
 
 <code>python src/run_update.py</code>
+
 4. Run the dashboard:
 
 <code>python src/app.py</code>
@@ -47,7 +50,7 @@ real data coming from your account, please rename the 'data_example' folder into
 <code>python src/app.py</code>
 
 
-## Dashboard Snapshots by tab:
+## Dashboard Snapshots by Tab:
 ### Overview:
 ![](./dashboard_snapshots/Overview.PNG)
 ### Capital Growth:
