@@ -133,4 +133,4 @@ def augment_product_details_csv(product_details_csv_path: str = PRODUCT_DETAILS_
 
 
 if __name__ == "__main__":
-    augment_product_details_csv()
+    pass

@@ -697,4 +697,4 @@ def load_portfolio_asset_pnl(product_details_csv_path: str = PRODUCT_DETAILS_CSV
 
 
 if __name__ == '__main__':
-    load_market_return_series(frequency='1M', currency='EUR')
+    pass

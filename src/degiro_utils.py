@@ -72,7 +72,7 @@ def retrieve_product_price_series(degiro_session: degiroapi.DeGiro,
         # Check how much data is needed to perform an update
         degiro_time_interval_update = generate_degiro_time_interval_update(start_date)
 
-        # Retrieve the Historicall prices
+        # Retrieve the Historical prices
         if degiro_time_interval_update is not None:
             real_time_price = degiro_session.real_time_price(
                 product_id, degiro_time_interval_update)
@@ -81,7 +81,7 @@ def retrieve_product_price_series(degiro_session: degiroapi.DeGiro,
             base_date = datetime.strptime(
                 real_time_price[0]['data']['windowStart'][:19], DEGIRO_DATE_FORMAT)
             base_date_str = base_date.strftime(DATE_FORMAT)
-            # Construct Historicall Time-Series
+            # Construct Historical Time-Series
             price_time_series = pd.DataFrame.from_dict(real_time_price[1]['data'])
             price_time_series.columns = ['date', 'price']
             # Int to Date

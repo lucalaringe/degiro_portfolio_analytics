@@ -37,4 +37,4 @@ def update_factor_data_series_csv(factor_data_details_path: str = FACTOR_DATA_DE
 
 
 if __name__ == '__main__':
-    update_factor_data_series_csv()
+    pass

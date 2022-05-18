@@ -132,4 +132,4 @@ def update_market_data_series_csv(market_data_details_path: str = MARKET_DATA_DE
 
 
 if __name__ == '__main__':
-    update_market_data_series_csv()
+    pass
