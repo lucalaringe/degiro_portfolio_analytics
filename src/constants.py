@@ -5,13 +5,16 @@ DEGIRO_DATE_FORMAT = '%Y-%m-%dT%H:%M:%S'
 DATE_FORMAT = '%Y-%m-%d'
 MSCI_DATE_FORMAT = '%Y%m%d'
 
-PORTFOLIO_DATA_FOLDER_PATH = 'data/portfolio_data'
+DATA_FOLDER_PATH = 'data'
+if not os.path.exists(DATA_FOLDER_PATH):
+    os.mkdir(DATA_FOLDER_PATH)
+PORTFOLIO_DATA_FOLDER_PATH = os.path.join(DATA_FOLDER_PATH, 'portfolio_data')
 if not os.path.exists(PORTFOLIO_DATA_FOLDER_PATH):
     os.mkdir(PORTFOLIO_DATA_FOLDER_PATH)
-MARKET_DATA_FOLDER_PATH = 'data/market_data'
+MARKET_DATA_FOLDER_PATH = os.path.join(DATA_FOLDER_PATH, 'market_data')
 if not os.path.exists(MARKET_DATA_FOLDER_PATH):
     os.mkdir(MARKET_DATA_FOLDER_PATH)
-FACTOR_DATA_FOLDER_PATH = 'data/factor_data'
+FACTOR_DATA_FOLDER_PATH = os.path.join(DATA_FOLDER_PATH, 'factor_data')
 if not os.path.exists(FACTOR_DATA_FOLDER_PATH):
     os.mkdir(FACTOR_DATA_FOLDER_PATH)
 
