@@ -1,7 +1,7 @@
 degiro_portfolio_analytics
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-DEGIRO is Europe's fastest growing online stock broker. DEGIRO distinguishes itself from its competitors by offering extremely low trading commissions.
+DEGIRO is Europe's fastest growing online broker. DEGIRO distinguishes itself from its competitors by offering extremely low trading commissions.
 However, the current Portfolio Management/Analytics tools currently available on DEGIRO's platform are extremely minimal and provide little insights into the user's portfolio. 
 This repository tries to bridge this gap by:
 
