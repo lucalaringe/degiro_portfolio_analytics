@@ -716,8 +716,8 @@ def benchmarking(s_date: str, e_date: str, product_names: str, index_names: str,
                'L12M Volatility', 'L3Y Returns', 'L3Y Volatility', 'ITD Returns',
                'ITD Volatility']
     columns_tuples = [('MTD', 'Return'), ('QTD', 'Return'), ('YTD', 'Return'), ('L12M', 'Return'),
-                      ('L12M', 'Volatility'), ('L3Y', 'Return'), ('L3Y', 'Volatility'), ('ITD', 'Return'),
-                      ('ITD', 'Volatility')]
+                      ('L12M', 'Volatility'), ('L3Y (Ann.)', 'Return'), ('L3Y (Ann.)', 'Volatility'),
+                      ('ITD (Ann.)', 'Return'), ('ITD (Ann.)', 'Volatility')]
     columns_mapping = dict(zip(columns, columns_tuples))
 
     data_table = data_table.applymap(numeric_to_percentage_str_format)
