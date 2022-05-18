@@ -8,6 +8,7 @@ MSCI_DATE_FORMAT = '%Y%m%d'
 DATA_FOLDER_PATH = 'data'
 if not os.path.exists(DATA_FOLDER_PATH):
     os.mkdir(DATA_FOLDER_PATH)
+PUBLIC_DATA_DETAILS_FOLDER_PATH = 'public_data_sources_details'
 PORTFOLIO_DATA_FOLDER_PATH = os.path.join(DATA_FOLDER_PATH, 'portfolio_data')
 if not os.path.exists(PORTFOLIO_DATA_FOLDER_PATH):
     os.mkdir(PORTFOLIO_DATA_FOLDER_PATH)
@@ -24,9 +25,9 @@ PRODUCT_PRICE_SERIES_CSV_PATH = os.path.join(PORTFOLIO_DATA_FOLDER_PATH, 'produc
 QUOTAS_CSV_PATH = os.path.join(PORTFOLIO_DATA_FOLDER_PATH, 'quotas.csv')
 NAV_CSV_PATH = os.path.join(PORTFOLIO_DATA_FOLDER_PATH, 'nav.csv')
 
-MARKET_DATA_DETAILS_PATH = os.path.join(MARKET_DATA_FOLDER_PATH, 'market_data_details.csv')
+MARKET_DATA_DETAILS_PATH = os.path.join(PUBLIC_DATA_DETAILS_FOLDER_PATH, 'market_data_details.csv')
 MARKET_DATA_SERIES_PATH = os.path.join(MARKET_DATA_FOLDER_PATH, 'market_data_series.csv')
-FACTOR_DATA_DETAILS_PATH = os.path.join(FACTOR_DATA_FOLDER_PATH, 'factor_data_details.csv')
+FACTOR_DATA_DETAILS_PATH = os.path.join(PUBLIC_DATA_DETAILS_FOLDER_PATH, 'factor_data_details.csv')
 FACTOR_DATA_SERIES_PATH = os.path.join(FACTOR_DATA_FOLDER_PATH, 'factor_data_series.csv')
 
 AVAILABLE_CURRENCIES = {'Local', 'EUR', 'USD', 'BTC', 'JPY'}
