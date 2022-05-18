@@ -40,6 +40,12 @@ Is this repository for you?
 
 <code>python src/app.py</code>
 
+5. Once the app is running, copy-paste the link where the app is running into your browser, so to display 
+the dashboard. In the example below, the link to copy-paste is: http://127.0.0.1:8050/
+   
+![](./dashboard_snapshots/TerminalMessage.PNG)
+
+
 
 #### Note
 The repository contains a folder named 'data_example'. If you wish to test the dashboard with sample data rather than 
