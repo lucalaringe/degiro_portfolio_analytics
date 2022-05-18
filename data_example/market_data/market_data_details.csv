@@ -1,0 +1,26 @@
+series_id,name,source,symbol,index_code,currency_symbol,index_variant,data_frequency,type,first_available_date,is_exchange_rate
+1001,S&P 500,yahoo,^GSPC,,USD,,DAILY,level,02/01/1970,0
+1002,Russel 2000,yahoo,^RUT,,USD,,DAILY,level,02/01/1970,0
+1003,Crude Oil,yahoo,CL=F,,USD,,DAILY,level,02/01/1970,0
+1004,Gold,yahoo,GC=F,,USD,,DAILY,level,02/01/1970,0
+1005,USD/EUR,yahoo,EURUSD=X,,,,DAILY,level,02/01/1970,1
+1006,BTC/USD,yahoo,BTC-USD,,,,DAILY,level,02/01/1970,1
+1007,Dow Jones Industrial Average,yahoo,^DJI,,USD,,DAILY,level,02/01/1970,0
+1008,Nasdaq Composite,yahoo,^IXIC,,USD,,DAILY,level,02/01/1970,0
+1009,Euro Stoxx 50,yahoo,^STOXX50E,,EUR,,DAILY,level,02/01/1970,0
+1010,Nikkei 225,yahoo,^N225,,JPY,,DAILY,level,02/01/1970,0
+1011,S&P-GSCI Commodity Index Future,yahoo,GD=F,,USD,,DAILY,level,02/01/1970,0
+1012,DAX,yahoo,^GDAXI,,EUR,,DAILY,level,02/01/1970,0
+1013,JPY/USD,yahoo,USDJPY=X,,,,DAILY,level,02/01/1970,1
+1014,MSCI World,msci,,990100,USD,STRD,DAILY,level,31/12/1969,0
+1015,MSCI ACWI,msci,,892400,USD,STRD,END_OF_MONTH,level,31/12/1987,0
+1016,MSCI EM,msci,,891800,USD,STRD,END_OF_MONTH,level,31/12/1987,0
+1017,MSCI EMU,msci,,106400,EUR,STRD,END_OF_MONTH,level,31/12/2000,0
+1018,MSCI World Value,msci,,105868,USD,STRD,END_OF_MONTH,level,31/12/1974,0
+1019,MSCI World ex USA Value,msci,,105874,USD,STRD,END_OF_MONTH,level,31/12/1974,0
+1020,MSCI World Growth,msci,,105867,USD,STRD,END_OF_MONTH,level,31/12/1974,0
+1021,MSCI World ex USA Growth,msci,,105873,USD,STRD,END_OF_MONTH,level,31/12/1974,0
+1022,MSCI World Small Cap,msci,,106230,USD,STRD,END_OF_MONTH,level,31/12/1992,0
+1023,MSCI World Small Value,msci,,655131,USD,STRD,END_OF_MONTH,level,31/12/1992,0
+1024,MSCI EM IMI,msci,,664220,USD,STRD,END_OF_MONTH,level,31/05/1994,0
+1025,S&P 500 Total Return,yahoo,^SP500TR,,USD,,DAILY,level,02/01/1970,0

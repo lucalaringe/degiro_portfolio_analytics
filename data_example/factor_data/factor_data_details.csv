@@ -1,0 +1,10 @@
+series_id,name,id_in_source,source,search_keyword,data_frequency,first_available_date,multiplier,type
+101,Market,Mkt-RF,famafrench,F-F_Research_Data_Factors_daily,DAILY,1926-01-07,0.01,return
+102,Size,SMB,famafrench,F-F_Research_Data_Factors_daily,DAILY,1926-01-07,0.01,return
+103,Value,HML,famafrench,F-F_Research_Data_Factors_daily,DAILY,1926-01-07,0.01,return
+104,RF,RF,famafrench,F-F_Research_Data_Factors_daily,DAILY,1926-01-07,0.01,return
+105,Profitability,RMW,famafrench,F-F_Research_Data_5_Factors_2x3_daily,DAILY,1963-01-07,0.01,return
+106,Investment,CMA,famafrench,F-F_Research_Data_5_Factors_2x3_daily,DAILY,1963-01-07,0.01,return
+107,Momentum,Mom   ,famafrench,F-F_Momentum_Factor_daily,DAILY,1926-03-11,0.01,return
+108,Short-term Reversal,ST_Rev,famafrench,F-F_ST_Reversal_Factor_daily,DAILY,1926-01-26,0.01,return
+109,Long-term Reversal,LT_Rev,famafrench,F-F_LT_Reversal_Factor_daily,DAILY,1930-03-20,0.01,return
